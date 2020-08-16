@@ -11,9 +11,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/cybertek/step_definitions",
-        monochrome = true,
         dryRun = false,
-        tags = ""
+        tags = "@koala"
 )
-public class CukesRunner {
+public class TestRunner {
 }
